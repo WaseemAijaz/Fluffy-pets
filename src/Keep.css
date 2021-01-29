@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height:85px;
+    background-color:#FF9510;
+}
+footer p {
+    margin-top: 80vh;
+}
+
+.notepad{
+    width: 50%;
+    height: 35vh;
+    align-items:center;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 30px;
+    background-color:floralwhite;
+    box-shadow: 5px 5px 25px -5px black;
+
+}
+.notepad form table tr input{
+    width:600px;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 40px;
+    font-size:20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.notepad form table tr textarea{
+    width:600px;
+    margin-top: 10px;
+    margin-left: 30px;
+    height:70px;
+    font-size:18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.notepad form button{
+    margin-top: 10px;
+    background-color: blueviolet;
+}
+
+.notepad form button:hover{
+    background-color: darkcyan;
+}
+
+.note{
+    width:20%;
+    height:22vh;
+    align-items:center;
+    margin-left:30px;
+    margin-top:20px;
+    border-radius:10px;
+    background-color:lemonchiffon;
+    box-shadow: 3px 3px 15px -3px black;
+}
+.note h4{
+    width: 70px;
+    height:10px;
+    font-size:18px;
+    padding:7px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.note p{
+    width:100px;
+    height:25px;
+    font-size:15px;
+    margin-left:10px;
+    margin-top:5px;
+}
+
+.note Button{
+    margin-left:200px;
+}
+.note Button{
+    border-radius:60%;
+    width: 50px;
+}
+
